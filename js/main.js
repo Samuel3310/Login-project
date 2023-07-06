@@ -47,6 +47,6 @@ submit.addEventListener("submit", (e) => {
     let setItem = localStorage.setItem(username, JSON.stringify(users));
 
     alert("succesfully registered");
-    window.location.href = "./login.html";
+    window.location.href = "./index.html";
   }
 });
