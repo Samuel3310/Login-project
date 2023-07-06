@@ -14,8 +14,6 @@ login.addEventListener("submit", (e) => {
   if (getUser.name !== names && getUser.password !== password) {
     invalid.textContent = "Error Username and Password";
   } else {
-    
-  
       sessionStorage.setItem("user", JSON.stringify(getUser));
       window.location.href = "./dashboard/index.html";
     
